@@ -121,8 +121,6 @@ while True:
             clientId = config[0][len("clientID="):].strip()
             clientSecret = config[1][len("clientSecret="):].strip()
         
-        # clientId = "8d6d66c8-016e-4cef-830c-d47b9babd536"
-        # clientSecret = "Tk-XOx2MeJs2OJgjtCSmYu_QrZUx-moLaIeO"
         nexar = NexarClient(clientId, clientSecret)
 
         results = []
